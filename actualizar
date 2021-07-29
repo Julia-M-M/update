@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+system 'apt list --upgradable';
+system 'sudo apt update';
+system 'sudo apt upgrade';
+system 'sudo apt autoremove';
+
+system 'sudo apt-get update';
+system 'sudo apt-get upgrade';
+system 'sudo apt-get autoremove';
+
+system 'cpanm Bio::Root::Version';
+
+system 'apt list --upgradable';
