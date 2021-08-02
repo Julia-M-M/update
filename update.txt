@@ -8,6 +8,6 @@ system 'sudo apt-get update';
 system 'sudo apt-get upgrade';
 system 'sudo apt-get autoremove';
 
-system 'cpanm Bio::Root::Version';
+system 'sudo cpanm Bio::Root::Version';
 
 system 'apt list --upgradable';
